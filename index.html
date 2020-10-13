@@ -6,35 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>Artificial Intelligence through the ages</h1>
-<h2>A timeline</h2>
-
-<ul>
-
-	<li>
-		<time datetime="0000-00-00-">Date</time> - <h3>Fait</h3>
-		<p>Description du fait et ses conséquences</p>
-		<h4><a href="#">Lien</a></h4>
-	</li>
-
-	<li>
-		<time datetime="0000-00-00-">Date</time> - <h3>Fait</h3>
-		<p>Description du fait et ses conséquences</p>
-		<h4><a href="#">Lien</a></h4>
-	</li>
-
-	<li>
-		<time datetime="0000-00-00-">Date</time> - <h3>Fait</h3>
-		<p>Description du fait et ses conséquences</p>
-		<h4><a href="#">Lien</a></h4>
-	</li>
-
-	<li>
-		<time datetime="0000-00-00-">Date</time> - <h3>Fait</h3>
-		<p>Description du fait et ses conséquences</p>
-		<h4><a href="#">Lien</a></h4>
-	</li>
-</ul>
+<div class="container">
+	<ul>
+		<div id="timeline"></div>
+	</ul>
+</div>
 </body>
+
+<!--CDN JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--CDN handlebars.js-->
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script>
+  // compile the template
+  var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
+  // execute the compiled template and print the output to the console
+  console.log(template({ doesWhat: "rocks!" }));
+</script>
+
+<!--Création de la template-->
+<script id="template" type="text/x-handlebars-template">
+<li>
+		<time datetime="0000-00-00-">{{Date}}</time> - <h3>{{Titre}}</h3>
+		<p>{{Description}}</p>
+		<h4>En savoir plus</h4>
+	</li>
+</script>
+
+<!-- Script principale -->
 <script type="text/javascript" src="script.js"></script>
+
 </html>

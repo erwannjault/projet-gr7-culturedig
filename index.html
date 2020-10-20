@@ -21,16 +21,14 @@
 <script>
   // compile the template
   var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
-  // execute the compiled template and print the output to the console
-  console.log(template({ doesWhat: "rocks!" }));
+
 </script>
 
 <!--Création de la template-->
 <script id="template" type="text/x-handlebars-template">
 <li>
-		<time datetime="0000-00-00-">{{Date}}</time> - <h3>{{Titre}}</h3>
-		<p>{{Description}}</p>
-		<h4>En savoir plus</h4>
+		<time datetime="0000-00-00-">{{{Date}}}</time> - <h3>{{{Titre}}}</h3>
+		<p>{{{Description}}}</p>
 	</li>
 </script>
 

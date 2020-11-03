@@ -12,12 +12,14 @@
 	<h2>Timeline</h2>
 	<nav>
 		<ul>
-			<a name="cat-un"><li>Catégorie 1</li></a>
-			<a name="cat-deux"><li>Catégorie 2</li></a>
-			<a name="cat-trois"><li>Catégorie 3</li></a>
+			<a name="all-cat" class="nav active"><li>Toutes les catégories</li></a>
+			<a name="cat-un" class="nav"><li>Catégorie 1</li></a>
+			<a name="cat-deux" class="nav"><li>Catégorie 2</li></a>
+			<a name="cat-trois" class="nav"><li>Catégorie 3</li></a>
 		</ul>
 	</nav>
 	<ul>
+
 		<main>
 		<div id="timeline"></div></main>
 	</ul>
@@ -39,9 +41,10 @@
 
 <!--Création de la template-->
 <script id="template" type="text/x-handlebars-template">
-<div class="date"><li>
+<div class="date {{{Catégorie}}}"><li>
 		<time datetime="0000-00-00-">{{{Date}}}</time> - <h3>{{{Titre}}}</h3>
 		<p>{{{Description}}}</p>
+		<img src="{{{Src}}}">
 		<h4><a href="{{{Lien}}}">En savoir plus</a></h4>
 	</li></div>
 </script>

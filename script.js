@@ -20,7 +20,7 @@ var data = {
     }, {
       Date: "1943",
       Titre: "Les Mécanismes cérébraux de l'activité intelligente",
-      Description: "W. Ross Ashby, Warren McCulloch et Walter Pitt effectuèrent des travaux sur les réseaux neuronaux,\
+      Description: "W. Ross Ashby, Warren McCulloch et Walter Pitts effectuèrent des travaux sur les réseaux neuronaux,\
       leur utilité et leur fonctionnement chez les organismes simples. Ces recherches ont largement inspiré les travaux actuels de l'IA.",
       Lien : "",
       Src : "",
@@ -87,3 +87,34 @@ $("a[name='all-cat']").click(function(){
   $(".date").show();
 })
 
+
+$(function() {
+  $("#chercher").on("click", function() {
+    $(".date").remove();
+    var val = $.trim($("#search").val());
+    if (val) {
+      val = val.toLowerCase();
+     for (i = 0; i < data.timeline.length; i++){
+      if (data.timeline[i].Titre.includes(val) || data.timeline[i].Description.includes(val)) {
+        var html = template(data.timeline[i]);
+        $("#timeline").append(html);
+      }
+
+
+      /*data.timeline.forEach(item => {
+        if (item.Titre == val) {
+          $(this).show();
+        }
+      })*/
+      }
+}
+})
+$("#reset").on("click", function(){
+   $(".date").remove();
+   for (i = 0; i < data.timeline.length; i++) {
+  var html = template(data.timeline[i]);
+  $("#timeline").append(html);
+}  
+
+})
+})

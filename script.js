@@ -122,9 +122,14 @@ $("#reset").on("click", function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     if (scroll >= 215) {
-        $(".wrap-search").addClass("sticky-box");
+        $("nav").addClass("sticky-box");
+        $("#upper").fadeIn();
     }
     if (scroll<215) {
-      $(".wrap-search").removeClass("sticky-box");
+      $("nav").removeClass("sticky-box");
+      $("#upper").fadeOut();
     }
+
+    
 });
+

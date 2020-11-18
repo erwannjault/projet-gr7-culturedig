@@ -12,6 +12,10 @@
 --l : 64px;
 --xl : 128px;
 }
+
+html {
+		scroll-behavior: smooth;
+}
 	
 * {
 	box-sizing: border-box;
@@ -24,6 +28,7 @@ body {
 	color : var(--grey-dark);
 	font-family: "Montserrat", sans-serif;
 	overflow-x: hidden;
+
 }
 
 main {
@@ -110,11 +115,9 @@ li {
 }
 
 .wrap-search {
-	position: sticky;
-	top : 63px;
+	position: relative;
 	background-color: var(--white);
 	padding: var(--l) 0 0 0;
-	z-index: 2;
 	transition: box-shadow ease-in-out 150ms;
 }
 
@@ -322,4 +325,27 @@ img {
 	margin: 0;
 	color: var(--blue);
 	opacity: 0.7;
+}
+
+#upper {
+	display: none;
+	position: fixed;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: var(--orange);	
+	box-shadow: 0 0 40px rgba(0,0,0,0.1);
+	bottom: 16px;
+	right: 16px;
+}
+
+#upper:before {
+content:"\2039";
+font-size: 32px;
+font-weight: 700;
+color: white;
+position: absolute;
+ left: 13.2px;
+ top: -5.1px;
+transform: rotate(90deg);
 }

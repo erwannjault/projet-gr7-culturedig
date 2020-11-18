@@ -15,7 +15,7 @@ var data = {
       Description: "L'homme mécanique Tiktok est un personnage fictif qualifié de prototype de robot.\
       Il est considéré comme l'un des premiers robots à apparaître dans la littérature moderne.",
       Lien : "",
-      Src : "",
+      Src : "https://i2.wp.com/dicodusport.fr/wp-content/uploads/2016/01/basket-ball.png?fit=1200%2C670&ssl=1",
       Catégorie : "",
     }, {
       Date: "1943",
@@ -23,7 +23,7 @@ var data = {
       Description: "W. Ross Ashby, Warren McCulloch et Walter Pitts effectuèrent des travaux sur les réseaux neuronaux,\
       leur utilité et leur fonctionnement chez les organismes simples. Ces recherches ont largement inspiré les travaux actuels de l'IA.",
       Lien : "",
-      Src : "",
+      Src : "https://images-na.ssl-images-amazon.com/images/I/91JL1XmxHQL._AC_SX522_.jpg",
       Catégorie : "",
     }, {
       Date: "1944",
@@ -118,3 +118,13 @@ $("#reset").on("click", function(){
 
 })
 })
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 215) {
+        $(".wrap-search").addClass("sticky-box");
+    }
+    if (scroll<215) {
+      $(".wrap-search").removeClass("sticky-box");
+    }
+});

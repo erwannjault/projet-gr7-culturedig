@@ -1,7 +1,7 @@
 var data = {
   timeline: [
     {
-      Date: "XXème siècle",
+      Date: "1900",
       Titre: "L'étude de la logique mathématique",
       Description: "L'étude de la logique mathématique fournit l'essentiel \
       des avancées qui ont rendu plausible l'intelligence artificielle.",
@@ -77,14 +77,14 @@ for (i = 0; i < data.timeline.length; i++) {
 }  
 
 $(".nav").click(function() {
-    $(".date").hide();
-    $("li").removeClass('active');
-    $(this).children().addClass('active');
-    $("." + this.getAttribute('name')).show();
+    $(".date").fadeOut('fast');
+    $("a").removeClass('active');
+    $(this).addClass('active');
+    $("." + this.getAttribute('name')).fadeIn('fast');
   })
 
 $("a[name='all-cat']").click(function(){
-  $(".date").show();
+  $(".date").fadeIn('fast');
 })
 
 
@@ -103,7 +103,7 @@ $(function() {
 
       /*data.timeline.forEach(item => {
         if (item.Titre == val) {
-          $(this).show();
+          $(this).fadeIn('fast');
         }
       })*/
       }

@@ -89,14 +89,18 @@ nav ul {
 	justify-content: center;
 }
 
-ul a, ul a li {
+ul a{
 	display: inline-block;
 	text-align: center;
 	background-color: var(--white);
-	padding: 2px 8px;
+	padding: 8px 24px;
 	font-size: 12px;
 	border-radius: 14px;
 	margin: 0 var(--xs);
+}
+
+li {
+	list-style: none;
 }
 
 .wrap-search {
@@ -119,8 +123,14 @@ ul a, ul a li {
     margin: 8px 0 16px 0;
     width: 100%;
     border: none;
-    background-color: rgba(0,0,0,0.15) !important;
+    background-color: rgba(0,0,0,0.15);
     border-radius: 1px;
+}
+
+.wrap-search input:focus {
+   outline:  var(--orange) auto 0.5px;
+
+	transition: filter ease-in-out 200ms;
 }
 
 button#chercher {
@@ -142,10 +152,10 @@ button#reset {
 	padding: var(--s) var(--s);
 }
 
-button:hover{
+button:hover, .nav:hover{
 	cursor: pointer;
 	filter: brightness(85%);
-	transition: filter ease-in-out 200ms;
+	transition: filter ease-in-out 150ms;
 }
 
 #timeline {
@@ -162,3 +172,19 @@ button:hover{
 	grid-column: 1;
 }
 
+.active {
+	background-color: var(--blue);
+	color : var(--white);
+	transition: background-color ease-in-out 150ms, color ease-in-out 150ms !important;
+}
+
+time {
+font-weight: 900;
+color : var(--blue);
+font-size: var(--m);
+max-width:2ch;
+}
+
+img {
+	max-width: 100%;
+}

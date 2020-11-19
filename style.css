@@ -182,7 +182,7 @@ button:hover, .nav:hover{
 
 #timeline {
 	display: grid;
-	grid-template-columns: repeat(2, auto);
+	grid-template-columns: repeat(2, 45%);
 	column-gap: 10%;
 }
 
@@ -284,7 +284,7 @@ img {
 	height: 150%;
 	width: 3%;
 	background-color: var(--orange);
-	top : -25%;
+	top : -70px;
 	left: -12.55%;
 }
 
@@ -296,7 +296,7 @@ img {
 	width: 3%;
 	background-color: var(--orange);
 	right: -12.65%;
-	top : -25%;
+	top : -70px;
 }
 
 

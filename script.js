@@ -578,8 +578,9 @@ $(function() {
       val = val.toLowerCase();
      for (i = 0; i < data.timeline.length; i++){
       if (data.timeline[i].Titre.includes(val) || data.timeline[i].Description.includes(val)) {
+        if ($(".active").attr('name')==data.timeline[i].Catégorie || $(".active").attr("name")=="all-cat") {
         var html = template(data.timeline[i]);
-        $("#timeline").append(html);
+        $("#timeline").append(html);}
       }
 
 

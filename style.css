@@ -39,7 +39,6 @@ main {
 .date {
 	margin: var(--xl) 0 var(--xl) 0;
 	position: relative;
-	grid-row: span 1;
 }
 
 h1,h2 {
@@ -109,6 +108,8 @@ ul a{
 	border-radius: 14px;
 	margin: 0 var(--xs);
 }
+
+
 
 li {
 	list-style: none;
@@ -224,12 +225,10 @@ time {
 
 .date:nth-child(odd) time {
 grid-column: 1;
-grid-row: 1;
 }
 
 .date:nth-child(even) time {
 	grid-column: 2;
-	grid-row:1-2;
 }
 
 .date:nth-child(even) time:before {
@@ -239,7 +238,7 @@ grid-row: 1;
     height: var(--m);
     transform: rotate(45deg);
     position: absolute;
-    right: -14.55%;
+    right: -14.6%;
     top: 15px;
     background-color: var(--blue);
     z-index: 1;
@@ -253,7 +252,7 @@ grid-row: 1;
     height: var(--m);
     transform: rotate(45deg);
     position: absolute;
-    left: -14.55%;
+    left: -14.4%;
     top: 15px;
     background-color: var(--blue);
     z-index: 1;
@@ -274,7 +273,7 @@ h3 {
 
 }
 img {
-	max-width: 100%;
+	max-width: 85%;
 }
 
 .date:nth-child(odd):before {
@@ -308,7 +307,7 @@ img {
 
 .date p {
 	font-size: var(--s);
-	color: rgba(0,0,0,0.6);
+	color: rgba(0,0,0,0.8);
 	line-height: 140%;
 	margin: 0 0 var(--xs) 0;
 }
@@ -325,6 +324,7 @@ img {
 	margin: 0;
 	color: var(--blue);
 	opacity: 0.7;
+	font-size: 16px;
 }
 
 #upper {

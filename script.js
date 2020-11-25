@@ -3,7 +3,7 @@ var data = {
   {
     "Date": "1900",
     "Titre": "Logique mathématique",
-    "Description": "L'étude de la logique mathématique fourni l'essentiel des avancées qui ont rendu plausible l'intelligence artificielle.",
+    "Description": "L'étude de la logique mathématique fournit l'essentiel des avancées qui ont rendu plausible l'intelligence artificielle.",
     "Lien": "https://people.montefiore.uliege.be/lens/logic/notes/LogProp.pdf",
     "Src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gottfried_Wilhelm_von_Leibniz.jpg/220px-Gottfried_Wilhelm_von_Leibniz.jpg",
     "Catégorie": "publications"

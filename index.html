@@ -1,53 +1,63 @@
 <!DOCTYPE html>
-<html lang="fr"  id="top">
+<html lang="fr" id="top">
+
 <head>
-	<title>Artificial Intelligence through the ages - A Timeline</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Artificial Intelligence through the ages - A Timeline</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-
-<div class="container">
-	<h1>L'intelligence artificielle</h1>
-	<h2>Timeline</h2>
-	<nav>
-		<ul>
-			<a name="all-cat" class="nav active"><li>Toutes les catégories</li></a>
-			<a name="programmation" class="nav"><li>Programmation</li></a>
-			<a name="fondamentaux" class="nav"><li>Fondamentaux</li></a>
-			<a name="exploits" class="nav"><li>Exploits/Succès</li></a>
-			<a name="publications" class="nav"><li>Publications/Travaux/Recherches</li></a>
-		</ul>
-	</nav>
-	   <div class="wrap-search"><div><label for="search">Chercher un mot clé</label>
-    <input type="text" name="search" id="search" placeholder="Ex: Mathématiques">
-     <button name="search_btn" id="chercher">Chercher</button>
-      <button name="reset" type="reset" id="reset">Reset</button>
-   
-</div></div>
-	<ul>
-		<main>
-		<div id="timeline"></div></main>
-	</ul>
-</div>
-
-<a href="#top"><div  id="upper"></div></a>
+    <div class="container">
+        <h1>L'intelligence artificielle</h1>
+        <h2>Timeline</h2>
+        <nav>
+            <ul>
+                <a name="all-cat" class="nav active">
+                    <li>Toutes les catégories</li>
+                </a>
+                <a name="programmation" class="nav">
+                    <li>Programmation</li>
+                </a>
+                <a name="fondamentaux" class="nav">
+                    <li>Fondamentaux</li>
+                </a>
+                <a name="exploits" class="nav">
+                    <li>Exploits/Succès</li>
+                </a>
+                <a name="publications" class="nav">
+                    <li>Publications/Travaux/Recherches</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="wrap-search">
+            <div><label for="search">Chercher un mot clé</label>
+                <input type="text" name="search" id="search" placeholder="Ex: Mathématiques">
+                <button name="search_btn" id="chercher">Chercher</button>
+                <button name="reset" type="reset" id="reset">Reset</button>
+            </div>
+        </div>
+        <ul>
+            <main>
+                <div id="timeline"></div>
+            </main>
+        </ul>
+    </div>
+    <a href="#top">
+        <div id="upper"></div>
+    </a>
 </body>
-
-
 <!--CDN JQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 <!--CDN handlebars.js-->
 <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 <script>
-  var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
+    var template = Handlebars.compile("Handlebars <b>{{doesWhat}}</b>");
 
 </script>
-
 <!--Création de la template-->
 <script id="template" type="text/x-handlebars-template">
-<div class="date {{{Catégorie}}}"><li>
+    <div class="date {{{Catégorie}}}"><li>
 	<time>{{{Date}}}</time>
 	<img src="{{{Src}}}">
 	<h3>{{{Titre}}}</h3>
@@ -55,7 +65,6 @@
 	<h4><a href="{{{Lien}}}" target="_blank">En savoir plus</a></h4>
 	</li></div>
 </script>
-
 <!-- Script principale -->
 <script type="text/javascript" src="script.js"></script>
 

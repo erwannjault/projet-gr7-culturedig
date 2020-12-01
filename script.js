@@ -3,7 +3,7 @@ var data = {
   {
     "Date": "1900",
     "Titre": "Logique mathématique",
-    "Description": "L'étude de la logique mathématique fournit l'essentiel des avancées qui ont rendu plausible l'intelligence artificielle.",
+    "Description": "L'étude de la logique mathématique fourni l'essentiel des avancées qui ont rendu plausible l'intelligence artificielle.",
     "Lien": "https://people.montefiore.uliege.be/lens/logic/notes/LogProp.pdf",
     "Src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gottfried_Wilhelm_von_Leibniz.jpg/220px-Gottfried_Wilhelm_von_Leibniz.jpg",
     "Catégorie": "publications"
@@ -77,7 +77,7 @@ var data = {
     "Titre": "Herbert Simon ",
     "Description": "Herbert Simon, physchologue, dans son livre vedette, s'intéresse au comportement humain et au traitement que ce dernier fait des informations qu'il possède. Il étudie aussi l'influence de sa pensée et de sa prise de décision. Ses travaux servent encore aujourd'hui à l'écriture des algorithmes fondateurs des IA.",
     "Lien": "https://fr.wikipedia.org/wiki/Herbert_Simon",
-    "Src": "https://lh3.googleusercontent.com/proxy/2yWZMllfgtWTG2KNOejvorHSZDe0nT1pn-PxBpkfNS_yJnet_dKAhI7on8Wq5LyO8nWd3-_6sRAWCYnmYNk1NCzApFEWNZ1dFXkQQg0QDA",
+    "Src": "https://www.nobelprize.org/images/simon-13300-portrait-medium.jpg",
     "Catégorie": "publications"
   },
   {
@@ -149,7 +149,7 @@ var data = {
     "Titre": "Création du langage LISP",
     "Description": "John McCarthy créé le langage LISP, la plus ancienne famille de langages de programmation spécialisé dans la programmation d’Intelligence Artificielle. Il est devenu dans les années 1970 et 80 le langage de choix pour la recherche en intelligence artificielle.",
     "Lien": "https://fr.wikipedia.org/wiki/Lisp",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lisp_logo.svg/131px-Lisp_logo.svg.png",
     "Catégorie": "programmation"
   },
   {
@@ -157,7 +157,7 @@ var data = {
     "Titre": "Machine Learning",
     "Description": "Le chercheur et informaticien A. Samuel évoque pour la première fois la notion de « Machine Learning ». Les scientifiques se rendent compte qu’il faut donner l’ensemble des informations indispensables à la machine pour qu’elle puisse « comprendre » son environnement.",
     "Lien": "https://hci.iwr.uni-heidelberg.de/system/files/private/downloads/636026949/report_frank_gabel.pdf",
-    "Src": "",
+    "Src": "https://strathmoretimes.com/wp-content/uploads/2018/07/Yerex-BW.jpg",
     "Catégorie": "fondamentaux"
   },
   {
@@ -165,7 +165,7 @@ var data = {
     "Titre": "Robot serveur de cocktail personnalisés",
     "Description": "Idoine serveur de cocktail personnalisés se basant sur une série de test (reflexe, agilité, questions etc). En fonction des humeurs et de plusieurs critères propres à chacun, le robot élabore des cocktail personnalisés.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://i.pinimg.com/236x/66/f1/a3/66f1a382ac48d1fb8f0483e97e7806b1--vintage-champagne-glasses-champagne-saucers.jpg",
     "Catégorie": "exploits"
   },
   {
@@ -173,7 +173,7 @@ var data = {
     "Titre": "Les adultes rêvent de l'IA à leurs petits soins tandis que les enfants eux sont très inquiets",
     "Description": "\"Les gens ils n'auraient plus rien à faire, puisqu'ils ne travailleraient plus. Quand ils auront fabriqués les robots, les robots fabriqueront d'autres robots. Les robots feraient la guerre et les gens grossiraient, ils ne feraient plus rien. La race de l'homme se perdrait\" Parole d'un enfant dans les années 60",
     "Lien": "https://www.ina.fr/video/S632596_001/intelligence-artificielle-le-fantasme-des-annees-60-video.html",
-    "Src": "",
+    "Src": "https://mesbelleslectures.files.wordpress.com/2016/12/enfants-annc3a9es-50.jpg",
     "Catégorie": ""
   },
   {
@@ -181,7 +181,7 @@ var data = {
     "Titre": "Unimate, le premier robot industriel",
     "Description": "Inventé par George Devol dans les années 1950, Unimate a été le premier à travailler sur une chaîne de montage de General Motors dans le New Jersey. Ses responsabilités comprenaient le transport de pièces moulées sous pression depuis la chaîne d'assemblage et le soudage des pièces sur les voitures. Ces tâches étaient jugées dangereuse pour l'homme, d'où l'arrivée de ce robot.",
     "Lien": "https://www.usinenouvelle.com/article/bios-de-robots-unimate-le-premier-ouvrier-mecanique.N276769",
-    "Src": "",
+    "Src": "https://www.industrie-techno.com/mediatheque/5/1/8/000025815_600x400_c.jpg",
     "Catégorie": ""
   },
   {
@@ -189,7 +189,7 @@ var data = {
     "Titre": "Premier Chatbot Eliza",
     "Description": "Ancêtre du chatbot tel que nous le connaissons aujourd’hui, et créé par Joseph Weizenbraum, le programme cherchait à parodier un psychothérapeute interviewant un patient. Il a passé un test de Turing, ce qui signifie qu'il a trompé les humains en leur faisant croire qu'ils parlaient avec une personne. Il a été nommé d'après Eliza Doolittle.",
     "Lien": "http://sboisse.free.fr/technique/info/eliza.php",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/ELIZA_conversation.jpg",
     "Catégorie": "exploits"
   },
   {
@@ -197,7 +197,7 @@ var data = {
     "Titre": "STUDENT, un programme d'intelligence artificielle",
     "Description": "Daniel Bobrow, informaticien, a créé STUDENT, un des premiers programmes d'IA écrit en Lisp qui a résolu des problèmes de mots d'algèbre. Les règles utilisées par STUDENT sont préprogrammées par le développeur du logiciel et sont capables d'analyser le langage naturel. STUDENT est cité comme l'une des premières étapes du traitement du langage naturel par l'IA.",
     "Lien": "https://en.wikipedia.org/wiki/STUDENT_(computer_program)",
-    "Src": "",
+    "Src": "https://i1.rgstatic.net/ii/profile.image/272458523607071-1441970582988_Q512/Daniel_Bobrow2.jpg",
     "Catégorie": ""
   },
   {
@@ -205,7 +205,7 @@ var data = {
     "Titre": "Shakey le robot",
     "Description": "Shakey a été le premier robot mobile polyvalent capable de prendre des décisions sur ses propres actions en raisonnant sur son environnement. Il a construit une carte spatiale de ce qu'il voyait, avant de se déplacer. Mais il était terriblement lent, même dans une zone où il y avait peu d'obstacles. Chaque fois qu'il avançait, Shakey devait mettre sa carte à jour. Un objet en mouvement dans son champ de vision pouvait facilement le désorienter, l'arrêtant parfois dans sa course pendant une heure alors qu'il planifiait son prochain mouvement.",
     "Lien": "https://fr.wikipedia.org/wiki/Shakey_le_robot",
-    "Src": "",
+    "Src": "https://cdn.thenewstack.io/media/2017/03/cc64e1e5-shakeysriinternational1-1487364021434.jpg",
     "Catégorie": ""
   },
   {
@@ -213,7 +213,7 @@ var data = {
     "Titre": "Mac Hack, le premier programme d'échec",
     "Description": "Grenblatt, chercheur au MIT, développe le premier programme automatique du jeu d’échec. Il a été le premier programme à jouer dans des conditions de tournoi humain, le premier à obtenir un classement aux échecs, et le premier à gagner contre une personne. ",
     "Lien": "https://en.wikipedia.org/wiki/Mac_Hack",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/RS_Chess_Computer.JPG",
     "Catégorie": "programmation exploits"
   },
   {
@@ -221,15 +221,15 @@ var data = {
     "Titre": "2001 : L'Odyssey de l'espace",
     "Description": "Avec son ordinateur intelligent, HAL 9000, le film reflétait certaines prédictions faites par des chercheurs en IA à l'époque, y compris Minsky, selon lesquelles les machines se dirigeaient très bientôt vers l'intelligence au niveau humain.",
     "Lien": "https://www.allocine.fr/film/fichefilm_gen_cfilm=27442.html",
-    "Src": "",
+    "Src": "https://fr.web.img2.acsta.net/pictures/18/05/04/14/53/4306860.jpg",
     "Catégorie": "publications"
   },
   {
     "Date": "1968",
     "Titre": "SHRDLU",
     "Description": "L'un des premiers programmes informatiques de compréhension du langage naturel développé par Terry Winograd. Il permettait un dialogue interactif avec l'utilisateur à base de termes en anglais sous-forme de jeu de questions-réponses entre l'IA et l'homme.",
-    "Lien": "",
-    "Src": "",
+    "Lien": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FSHRDLU&psig=AOvVaw1KvpleiCNEDb2s-0KdKNHl&ust=1606863173962000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCJjdkfitq-0CFQAAAAAdAAAAABAD",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Shrdlu-original.jpg",
     "Catégorie": "programmation"
   },
   {
@@ -237,7 +237,7 @@ var data = {
     "Titre": "Human Problem Solving",
     "Description": "Un des nombreux travaux de Allen Newell et Herbert Simon sur la prise de décision et la résolution de problèmes de l'homme. La partie du livre sur la logique et son fonctionnement mathématique est utilisée dans les méthodes engagées dans la programmation d'une IA actuelle.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://images-na.ssl-images-amazon.com/images/I/61ssCt2-uFL.jpg",
     "Catégorie": "publications fondamentaux"
   },
   {
@@ -245,7 +245,7 @@ var data = {
     "Titre": "Hearsay",
     "Description": "Raj Reddy invente le premier système capable d'effectuer de la reconnaissance vocale en continue. Le système consiste en un ensemble de processus indépendants et coopératifs, chacun représentant une source de connaissance. Elle est utilisée soit pour prédire ce qui peut apparaître dans un contexte donné soit pour vérifier des hypothèses résultant d'une prédiction.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://i.ytimg.com/vi/FsjtipuEX2s/sddefault.jpg",
     "Catégorie": "programmation"
   },
   {
@@ -253,7 +253,7 @@ var data = {
     "Titre": "Parry",
     "Description": "Programmé par le pshychiatre Kenneth Colby, ce chatbot était destiné à converser comme un schizophrène paranoïaque. Son approche sous-jacente était plus sophistiquée que celle d'Eliza.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://pbs.twimg.com/profile_images/946105436566155265/x8YGY-fd.jpg",
     "Catégorie": "programmation"
   },
   {
@@ -261,7 +261,7 @@ var data = {
     "Titre": "MYCIN",
     "Description": "Edward Shortliffe fabrique le premier système capable de diagnostiquer et traiter des infections bactériennes. Il est basé sur des règles obtenus de données cliniques de manière interactive d'un médecin utilisateur et a été utilisé pour diagnostiquer et recommander un traitement pour les infections graves.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://alchetron.com/cdn/edward-h-shortliffe-f11f9dcc-9efa-4e4f-91d4-72eef1d9e0a-resize-750.jpeg",
     "Catégorie": "exploits"
   },
   {
@@ -269,7 +269,7 @@ var data = {
     "Titre": "AARON le programme informatique qui crée des images artistiques originales",
     "Description": "Harold Cohen, peintre, professeur à l'université de Californie à San Diego collabore sur un programme appelé AARON. Ce dernier a permis de réaliser des tableaux de manière autonome pendant des décennies. A la fin des années 80, Cohen a pu plaisanter en disant qu'il était le seul artiste qui aurait pu avoir une exposition posthume de nouvelles œuvres créées entièrement après sa propre mort. ",
     "Lien": "",
-    "Src": "",
+    "Src": "https://4.bp.blogspot.com/-Ji2B4_ndY14/U1MOxy-jNfI/AAAAAAAAAJg/_PYzI4ScmKk/s1600/AARON,+COHEN.png",
     "Catégorie": ""
   },
   {
@@ -277,7 +277,7 @@ var data = {
     "Titre": "AI Winter",
     "Description": "En 1974 arrive une période appelée le « AI Winter ». Beaucoup d’experts ne réussissent pas à faire aboutir leurs projets et les gouvernements britannique et américain réduisent leurs financements pour les académies. Ils préfèrent soutenir des idées ayant plus de chances de déboucher sur quelque chose de concret.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://miro.medium.com/max/3228/1*OlB3SM0CqmlM37HT6YCK6g.png",
     "Catégorie": ""
   },
   {
@@ -285,7 +285,7 @@ var data = {
     "Titre": "WABOT-2, le robot musicien",
     "Description": "WABOT-2 a été construit à l'université de Waseda au Japon. Cette amélioration du WABOT-1 a permis à l'humanoïde de communiquer avec les gens ainsi que de lire des partitions musicales et de jouer de la musique sur un orgue électronique.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://robots.ieee.org/robots/wabot/Photos/SD/wabot-photo1-full.jpg",
     "Catégorie": ""
   },
   {
@@ -293,7 +293,7 @@ var data = {
     "Titre": "ASIMO",
     "Description": "Honda lance ses recherches sur les robots humanoïdes. Dans un premier temps, les ingénieurs cherchent à maîtriser la marche humaine. Ainsi, les premiers robots n’étaient qu’une simple paire de jambes articulées. C’est ensuite que sont ajoutés des bras et un véritable corps.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://cdn.vox-cdn.com/thumbor/akbL_DGjsz72rc4evTYHPPDro4E=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/assets/781590/asimo.jpeg",
     "Catégorie": "fondamentaux"
   },
   {
@@ -301,15 +301,15 @@ var data = {
     "Titre": "Un début pour la voiture autonome chez Mercedes-Benz",
     "Description": "Mercedes-Benz a construit et mis en circulation une camionnette sans conducteur équipée de caméras et de capteurs sous la direction d'Ernst Dickmanns. Il était capable de rouler à 55 miles/heure sur une route sans autres obstacles ni conducteurs humains.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.singularityweblog.com/wp-content/uploads/2015/10/Mercedes-Self-Driving-Car---.jpg",
     "Catégorie": ""
   },
   {
     "Date": "1989",
     "Titre": "LeNet",
-    "Description": "Yann Lecin combina un réseau neuronal formé par des algorithmes pour lire des numéros manuscrits et l'a appliqué avec succès pour identifier des numéros de code postal manuscrits fournis par le service postal américain.",
+    "Description": "Yann Lecun combina un réseau neuronal formé par des algorithmes pour lire des numéros manuscrits et l'a appliqué avec succès pour identifier des numéros de code postal manuscrits fournis par le service postal américain.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Yann_LeCun_-_2018_%28cropped%29.jpg/260px-Yann_LeCun_-_2018_%28cropped%29.jpg",
     "Catégorie": "exploits"
   },
   {
@@ -317,7 +317,7 @@ var data = {
     "Titre": "Rodney Brooks publie un article intitulé \"Elephants don't play chess\"",
     "Description": "Brooks s'est inspiré des progrès des neurosciences, qui avaient commencé à expliquer les mystères de la cognition humaine. La vision, par exemple, a besoin de différents \"modules\" dans le cerveau pour travailler ensemble afin de reconnaître des modèles, sans contrôle central. Brooks a fait valoir que l'approche descendante consistant à préprogrammer un ordinateur avec les règles du comportement intelligent était erronée. Il a contribué à la relance des recherches sur l'IA.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://reader015.staticloud.net/reader015/html5/20180702/575023051a28ab877ea7c804/bg1.png",
     "Catégorie": ""
   },
   {
@@ -325,15 +325,15 @@ var data = {
     "Titre": "Technological Singularity",
     "Description": "La singularité technologique (ou simplement la singularité) est l'hypothèse selon laquelle l'invention de l'intelligence artificielle déclencherait un emballement de la croissance technologique qui induirait des changements imprévisibles sur la société humaine. Le concept de « singularité technologique » fut repopularisé en partie grâce au mathématicien et auteur Vernor Vinge. Vinge a commencé à parler de la singularité dans les années 1980 et a formulé ses idées dans son premier article sur le sujet en 1993 : l’essai Technological Singularity.",
     "Lien": "http://www8.cs.umu.se/kurser/5DV084/HT10/utdelat/vinge.pdf",
-    "Src": "",
+    "Src": "https://charybde2.files.wordpress.com/2015/12/maxresdefault.jpg",
     "Catégorie": "fondamentaux"
   },
   {
     "Date": "1994",
     "Titre": "Agents intelligents",
-    "Description": "Entité capable de percevoir son environnement grâce a des capteurs et aussi d'agir sur lui via des effecteurs afin de réaliser des buts. Il peut également apprendre ou utiliser des connaissances pour pouvoir réaliser ses objectifs.",
+    "Description": "Entité capable de percevoir son environnement grâce a des capteurs et aussi d'agir sur lui via des effecteurs afin de réaliser des buts. Il peut également apprendre ou utiliser des connaissances pour pouvoir réaliser ses objectifs. L'agent intelligent n'a pas atteint sa forme moderne avant que Judea Pearl, Allen Newell et d'autres n'y amènent des concepts de théorie de la décision et d'économie",
     "Lien": "",
-    "Src": "",
+    "Src": "https://wp.dailybruin.com/images/2018/07/web.ns_.judeapearl.JA_-470x360.jpg",
     "Catégorie": "exploits"
   },
   {
@@ -341,7 +341,7 @@ var data = {
     "Titre": "A.L.I.C.E, le chatbot qui apprend à parler grâce au web",
     "Description": "Egalement appelé Alice, est un chatbot de traitement du langage nature qui engage une conversation avec un humain en appliquant certaines règles de correspondance de modèles heuristiques à l'entrée de l'humain. Il a été inspiré par le programme classique ELIZA de Joseph Weizenbaum. C'est l'un des programmes les plus puissants de ce type et il a remporté trois fois le prix Loebner, décerné à des robots humanoïdes parlants accomplis.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://i1.wp.com/farm1.static.flickr.com/223/502694453_3da5374db3.jpg",
     "Catégorie": ""
   },
   {
@@ -349,7 +349,7 @@ var data = {
     "Titre": "Deep Blue bat un multiple champion d'échecs",
     "Description": "Garry Kasparov, alors six fois champion du monde d’échec est battu par Deep Blue. Ce dernier est un superordinateur spécialisé dans le jeu d'échecs. Ce moment est considéré comme un moment historique dans le développement de la technologie de l’Intelligence Artificielle. Elle est en mesure d’être plus opérationnelle et intelligente que les humains.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.cscience.ca/wp-content/uploads/2020/08/Kasparov-vs-deep-blue.jpeg",
     "Catégorie": ""
   },
   {
@@ -357,7 +357,7 @@ var data = {
     "Titre": "KISmet",
     "Description": "Cynthia Breazeal présente KISmet, un robot émotionnellement intelligent dans la mesure où il détecte et répond aux sentiments des gens. Il simule l'émotion à travers diverses expressions faciales, vocalisations et mouvements.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Kismet_robot_20051016.jpg",
     "Catégorie": ""
   },
   {
@@ -365,7 +365,7 @@ var data = {
     "Titre": "Furby, le premier robot-jouet pour enfant",
     "Description": "Furby est un jouet électronique robotique américain qui a été lancé en 1998 par Tiger Electronics. Il ressemble à un hamster ou à une créature ressemblant à un hibou et a traversé une période de \"must have\" suite à son lancement pendant les fêtes de fin d'année, avec des ventes continues jusqu'en 2000. Ses capacités d'expression orale ont été traduites en 24 langues.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://images-na.ssl-images-amazon.com/images/I/71DL%2BxvYTjL._AC_SL1500_.jpg",
     "Catégorie": ""
   },
   {
@@ -373,7 +373,7 @@ var data = {
     "Titre": "Film de Sipelberg \"intelligence artificielle\"",
     "Description": "Dans ce conte de fées futuriste, \"David\", un garçon robotique très avancé émotionnellement, espère devenir un vrai garçon afin de regagner l'affection de la mère humaine qui l'a abandonné. Comme Pinocchio, il entreprend un long voyage dans l'espoir de trouver sa \"Fée bleue\", qui pourra réaliser ses rêves.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/AI_Poster.jpg/220px-AI_Poster.jpg",
     "Catégorie": ""
   },
   {
@@ -381,7 +381,7 @@ var data = {
     "Titre": "Roomba, le premier robot pour la maison",
     "Description": "Le nettoyage de la moquette était loin des ambitions des premiers pionniers de l'IA. Mais le Roomba a été un grand succès. Ses quelques couches de systèmes générateurs de comportement étaient bien plus simples que les algorithmes de Shakey le robot. Malgré des capteurs relativement simples et une puissance de traitement minimale, l'appareil était suffisamment intelligent pour nettoyer une maison de manière fiable et efficace. Roomba a inauguré une nouvelle ère de robots autonomes, axés sur des tâches spécifiques.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://images-na.ssl-images-amazon.com/images/I/61KwHnQDqJL._AC_SL1010_.jpg",
     "Catégorie": ""
   },
   {
@@ -389,7 +389,7 @@ var data = {
     "Titre": "Stanley, la voiture autonome",
     "Description": "Sebastian Thrun crée premier véhicule autonome qui a parcouru plus de 225km en 7h dans le désert de Mojave. Stanley a remporté le grand défi de la Defense Advanced Research Projects Agency’s (DARPA) en 2005. Il a été développé pour la conduite à grande vitesse dans le désert sans intervention humaine. Le système se base sur des technologies telles que le machine learning et la logique probabiliste.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Stanley2.JPG/1920px-Stanley2.JPG",
     "Catégorie": ""
   },
   {
@@ -397,7 +397,7 @@ var data = {
     "Titre": "Machines de guerre",
     "Description": "Après avoir vu leurs rêves d'IA pendant la guerre froide se réaliser, l'armée américaine se remettait en marche avec cette nouvelle approche. Ils ont commencé à investir dans des robots autonomes. BigDog, fabriqué par Boston Dynamics, a été l'un des premiers. Construit pour servir d'animal de meute robotique sur un terrain trop accidenté pour les véhicules conventionnels, il n'a jamais réellement connu de service actif.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.industrie-techno.com/mediatheque/1/4/2/000021241_600x400_c.jpg",
     "Catégorie": ""
   },
   {
@@ -405,7 +405,7 @@ var data = {
     "Titre": "La reconnaissance vocale de Google apparaît sur iPhone",
     "Description": "Bien que la reconnaissance vocale soit l'un des principaux objectifs de l'IA, des décennies d'investissement ne l'avaient jamais fait dépasser une précision de 80 %. Google a été le pionnier d'une nouvelle approche : des milliers d'ordinateurs puissants, faisant tourner des réseaux neuronaux parallèles, apprenant à repérer des modèles dans les vastes volumes de données transmises par les nombreux utilisateurs de Google. ",
     "Lien": "",
-    "Src": "",
+    "Src": "https://anticip.paritel.fr/wp-content/uploads/2018/07/reconnaissance-vocale-min.jpg",
     "Catégorie": ""
   },
   {
@@ -413,7 +413,7 @@ var data = {
     "Titre": "Microsoft lance la Kinect",
     "Description": "Microsoft a lancé Kinect pour la Xbox 360, le premier appareil de jeu qui suit les mouvements du corps humain et qui intègre des caméras RGB, des projecteurs et des détecteurs infrarouges qui cartographient la profondeur par le biais de la lumière structurée ou de calculs du temps de vol, et un réseau de microphones, ainsi que des logiciels et une intelligence artificielle de Microsoft. Il permet à l'appareil d'effectuer, entre autres, la reconnaissance des gestes, la reconnaissance vocale et la détection du squelette du corps en temps réel pour un maximum de quatre personnes. ",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.journaldugeek.com/content/uploads/2017/10/kinect.jpg",
     "Catégorie": "exploits"
   },
   {
@@ -421,7 +421,7 @@ var data = {
     "Titre": "L'homme contre la machine : Le combat du 21ème siècle",
     "Description": "En 2011, Watson, programme informatique d'intelligence artificielle d'IBM, s'est attaqué au cerveau humain dans l'émission américaine Jeopardy. C'était un défi bien plus important que les échecs pour la machine. Watson devait répondre à des énigmes et à des questions complexes. Ses concepteurs ont utilisé une multitude de techniques d'IA, dont les réseaux de neurones, et ont entraîné la machine pendant plus de trois ans à reconnaître les modèles dans les questions et les réponses. Watson éclate son opposition. La victoire est devenue virale et a été saluée comme un triomphe pour l'IA.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://i.ytimg.com/vi/P18EdAKuC1U/maxresdefault.jpg",
     "Catégorie": ""
   },
   {
@@ -429,7 +429,7 @@ var data = {
     "Titre": "Apple lance Siri",
     "Description": "Siri est un assistant virtuel qui fait partie des systèmes d'exploitation d'Apple. L'assistant utilise des requêtes vocales, un contrôle gestuel, un suivi de la mise au point et une interface utilisateur en langage naturel pour répondre aux questions, faire des recommandations et effectuer des actions en déléguant des requêtes à un ensemble de services Internet. Le logiciel s'adapte aux usages linguistiques, aux recherches et aux préférences individuelles des utilisateurs, avec une utilisation continue.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.wel-com.fr/blog/wp-content/uploads/2019/01/evolution-siri.jpg",
     "Catégorie": ""
   },
   {
@@ -437,7 +437,7 @@ var data = {
     "Titre": "Google Brain",
     "Description": "Google Brain, projet de deep learning conduit par google, est capable de résumer un nombre important de données de manière fluide et précise. Il est même capable de générer de nouveaux mots.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://thumbor.sd-cdn.fr/AknyLSi6MRcc6CLfGxMJYuUVwtg=/fit-in/1920x1440/cdn.sd-cdn.fr/wp-content/uploads/2019/12/google_brain_conceptartboard_1.jpg",
     "Catégorie": ""
   },
   {
@@ -445,7 +445,7 @@ var data = {
     "Titre": "Lettre ouverte sur les armes autonomes",
     "Description": "Elon Musk, Stephen Hawking et Steve Wozniak, parmi 3 000 autres, ont signé une lettre ouverte mettant en garde contre une \"course aux armements par intelligence artificielle militaire\" et demandant l'interdiction des \"armes offensives autonomes\".",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.wedemain.fr/wp-content/uploads/2020/04/7355971-11324353-1280x720.jpg",
     "Catégorie": ""
   },
   {
@@ -453,7 +453,7 @@ var data = {
     "Titre": "AlphaGo bat le champion du monde de go.",
     "Description": "L'AlphaGo de Google DeepMind bat le champion du monde de go Lee Sedol. La complexité de l'ancien jeu chinois était considérée comme un obstacle majeur à franchir en IA. Les versions ultérieures d'AlphaGo sont devenues de plus en plus puissantes, y compris une version qui concourait sous le nom de Master. Après s'être retiré du jeu de compétition, AlphaGo Master a été remplacé par une version encore plus puissante connue sous le nom d'AlphaGo Zero, qui était complètement autodidacte sans apprendre des jeux humains.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.sciencesetavenir.fr/assets/img/2016/03/12/cover-r4x3w1000-57dfaeb6e838d-alphago-contre-lee-se-dol.jpg",
     "Catégorie": ""
   },
   {
@@ -461,7 +461,7 @@ var data = {
     "Titre": "Sophia, le premeir robot citoyen",
     "Description": "Un robot humanoïde nommé Sophia est créé par Hanson Robotics. Elle est connue comme la première \"citoyenne robot\". En octobre 2017, Sophia \"devient\" une citoyenne d'Arabie Saoudite, le premier robot à recevoir la citoyenneté d'un pays. Ce qui distingue Sophia des humanoïdes précédents est sa ressemblance avec un être humain réel, avec sa capacité à voir (reconnaissance d'images), à faire des expressions faciales et à communiquer par le biais de l'IA.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sophia_at_the_AI_for_Good_Global_Summit_2018_%2827254369347%29_%28cropped%29.jpg/1200px-Sophia_at_the_AI_for_Good_Global_Summit_2018_%2827254369347%29_%28cropped%29.jpg",
     "Catégorie": ""
   },
   {
@@ -469,7 +469,7 @@ var data = {
     "Titre": "AI co-produces mainstream pop album",
     "Description": "Taryn Southern est une artiste pop qui travaille avec plusieurs plateformes d'IA pour coproduire son premier album I AM AI.  Son single \"Break Free\" de 2017 est une collaboration entre l'homme et l'AI. Taryn utilise l'IA afin d'écrire ses paroles et ses mélodies vocales sur la musique. Grâce à des feedback et des paramètres pour éditer ses chansons, elle arrive à personnaliser les sorties à ses gôuts.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Taryn_Southern_Streamys_2010.jpg",
     "Catégorie": ""
   },
   {
@@ -477,7 +477,7 @@ var data = {
     "Titre": "Lancement de Teachable Machine",
     "Description": "Le site web de Google permet de faire du Machine Learning très simplement et donne la possibilité à n'importe qui de créer une IA simple.",
     "Lien": "https://teachablemachine.withgoogle.com/",
-    "Src": "",
+    "Src": "https://i.ytimg.com/vi/T2qQGqZxkD0/maxresdefault.jpg",
     "Catégorie": ""
   },
   {
@@ -485,7 +485,7 @@ var data = {
     "Titre": "Deux IA communiquent",
     "Description": "Le laboratoire Facebook Artificial Intelligence Research a formé deux \"agents de dialogue\" (chatbots) pour communiquer entre eux afin d'apprendre à négocier. Cependant, lorsque les chatbots conversaient, ils s'écartaient du langage humain (programmé en anglais) et inventaient leur propre langage pour communiquer entre eux.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.terresacree.org/actualites/fichiers/images/2017-04/1492521011-Y6H.jpg",
     "Catégorie": ""
   },
   {
@@ -493,7 +493,7 @@ var data = {
     "Titre": "L'art d'une IA rapporte 432 500 dollars lors d'une vente aux enchères",
     "Description": "Le collectif d'artistes Obvious a alimenté un algorithme de 15 000 images de portraits de différentes époques. L'algorithme a généré ses propres portraits, en essayant de créer des œuvres originales qui pourraient passer pour des œuvres faites par l'homme. Sa vente signale l'arrivée de l'art AI sur la scène mondiale des ventes aux enchères.",
     "Lien": "",
-    "Src": "",
+    "Src": "https://www.artistikrezo.com/wp-content/uploads/2018/10/Obvious-Edmond-de-Belamy-e1540503693394.jpg",
     "Catégorie": ""
   },
   {
@@ -501,7 +501,7 @@ var data = {
     "Titre": "Emmanuel Macron veut développer les recherches sur l'IA",
     "Description": "Il dit ne pas vouloir que la France \"rate le train de l'intelligence artificielle\".",
     "Lien": "",
-    "Src": "",
+    "Src": "https://img.lemde.fr/2018/03/29/0/0/2395/1596/688/0/60/0/71d1de5_5251016-01-06.jpg",
     "Catégorie": ""
   },
   {
